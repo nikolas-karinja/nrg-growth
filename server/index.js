@@ -22,7 +22,7 @@ const App = express();
 const Stripe = stripe('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')
 // Initialize the ApifyClient with API token
 const Client_Appify = new ApifyClient({ token: 'apify_api_a7VafBDpEozOixWzQvDGlcNeeGoMYS15diVE' })
-const Client_DB     = new MongoClient('mongodb+srv://nikolas-karinja:zWWElTZVcsOBDSFE@ngr-growth.pce0mew.mongodb.net/?retryWrites=true&w=majority')
+const Client_DB     = new MongoClient('mongodb+srv://nrg-growth:JF10SIPZhPG7pDm6@serverlessinstance0.icjwruo.mongodb.net/?retryWrites=true&w=majority')
 
 const JAP_Url = 'https://justanotherpanel.com/api/v2'
 const JAP_Key = '83f499b7c9b8ef48accc9d7b37f1a1bc'

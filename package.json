@@ -70,7 +70,9 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "push": "git add . && git commit -am \"Deploy app to Heroku\" && git push heroku master"
+    "build": "cd client && npm install && npm run build",
+    "push": "git add . && git commit -am \"Deploy app to Heroku\" && git push origin main",
+    "pre-deploy": "npm run build && npm run push"
   },
   "engines": {
     "npm" : "8.x",
