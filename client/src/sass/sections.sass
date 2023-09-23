@@ -1,0 +1,149 @@
+.Intro-section
+    width: 100%
+    min-height: 34em
+
+    &--title
+        font-size: 2.5em
+        text-align: left
+
+    &--grid
+        margin: 0px auto 2em auto !important
+
+        display: grid !important
+        grid-gap: 1em
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+
+        &--card
+            background: #424242
+            border-radius: 0.5em
+            padding: 1em
+
+            &--img
+                width: 40%
+
+                margin: 0px !important
+
+            &--title
+                font-size: 1.5em
+                line-height: 1.5em
+
+            &--info
+                color: #c2c2c2
+                font-size: 1.125em
+                line-height: 1.5em
+
+            & *
+                text-align: left
+.Logo-section
+    width: 100%
+
+    background: #313131
+
+    &--logo
+        width: 12em
+        height: 12em
+
+        margin: 2em auto -2em auto !important
+
+    &--title
+        font-size: 3em
+        font-weight: 700
+        letter-spacing: 0.1em
+
+    &--subtitle
+        margin: 1em auto 2em auto !important
+
+        color: #c2c2c2
+        letter-spacing: 0.1em
+
+.Packages-section
+    width: 100%
+
+    background: #262626
+
+    &--title
+        font-size: 2.5em
+        text-align: right
+
+    &--grid
+        margin: 0px auto 2em auto !important
+
+        display: grid !important
+        grid-gap: 1em
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+
+        &--card
+            margin: 1em auto 0px auto !important
+
+            background: #424242
+            border-radius: 0.5em
+            padding: 1em
+            text-decoration: none
+
+            &--topGrid
+                display: grid !important
+                grid-gap: 1em
+                grid-template-columns: 2fr 1fr
+                grid-auto-rows: min-content
+
+                &--title
+                    color: #fff
+                    font-size: 1.5em
+
+                & *
+                    width: 100%
+
+                    margin: 0px !important
+
+                    text-align: left
+
+                & ul
+                    margin: 0px 0px 0px -1em !important
+
+                    color: #c2c2c2
+
+.Footer-section
+    width: 100%
+
+    background: #161616
+    color: #c2c2c2
+    padding: 1em
+
+    &--message
+        margin: 0.5em auto 0px auto !important
+
+    &--buttons
+        align-items: center
+        display: flex
+        justify-content: center
+
+        & *
+            margin: 0px 1em
+
+            color: #5360ab
+
+            &:hover
+                filter: contrast(150%)
+
+.Text-section
+    width: 100%
+
+    color: #c2c2c2
+    padding: 1em
+
+    &--title
+        color: #fff
+        font-size: 2.5em
+
+    &--text
+        margin: 1em auto 2em auto !important
+
+        font-size: 1.125em
+        line-height: 1.5em 
+        text-align: left
+
+@media only screen and (max-width: 1080px)
+    .Intro, .Packages
+        &-section--grid
+            grid-template-columns: repeat(1, minmax(0, 1fr))
+            grid-auto-rows: min-content
