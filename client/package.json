@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:4242",
+  "description": "v0.1.0 developed by Nikolas Karinja on 9/23/23",
   "dependencies": {
     "@stripe/react-stripe-js": "^2.3.0",
     "@stripe/stripe-js": "^2.1.5",

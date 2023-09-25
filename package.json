@@ -1,7 +1,7 @@
 {
   "name": "nrg-growth",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "v1.0.0 developed by Nikolas Karinja on 9/23/23",
   "type": "module",
   "main": "index.js",
   "dependencies": {
